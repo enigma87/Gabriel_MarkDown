@@ -8,9 +8,6 @@ published: true
 ---
 **HMH **policies associated with a Kinesis consumer role
 
-<table>
-  <tr>
-    <td>
 ```arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole
 # additional permissions for cloudwatch/queues
 ```
@@ -27,10 +24,6 @@ published: true
     ]
 }
 ```
-    </td>
-  </tr>
-</table>
-
 
 **RENAISSANCE ** 
 
