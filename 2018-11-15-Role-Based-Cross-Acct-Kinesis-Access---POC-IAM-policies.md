@@ -6,7 +6,7 @@ permalink: /role-based-cross-acct-kinesis-access---poc-iam-policies/
 source-id: 1UAOqaq1pRFN5EBTzJRYr8fxM5xm8ywgvMk6hVuio6m8
 published: true
 ---
-**HMH **policies associated with a Kinesis consumer role
+**HMH policies associated with a Kinesis consumer role**
 
 ```
 arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole
@@ -26,7 +26,7 @@ arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole
 }
 ```
 
-**RENAISSANCE ** 
+**RENAISSANCE** 
 
 Trust Policy on IAM role hmh_kinesis_consumer_role for HMH Acct. The principal here will be more restrictive in practice, say an IAM role on HMH Acct.
 
