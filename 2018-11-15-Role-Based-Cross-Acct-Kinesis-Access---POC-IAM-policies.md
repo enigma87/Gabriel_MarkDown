@@ -8,7 +8,8 @@ published: true
 ---
 **HMH **policies associated with a Kinesis consumer role
 
-```arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole
+```
+arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole
 # additional permissions for cloudwatch/queues
 ```
 ```
@@ -29,9 +30,7 @@ published: true
 
 Trust Policy on IAM role hmh_kinesis_consumer_role for HMH Acct. The principal here will be more restrictive in practice, say an IAM role on HMH Acct.
 
-<table>
-  <tr>
-    <td>
+```
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -45,16 +44,12 @@ Trust Policy on IAM role hmh_kinesis_consumer_role for HMH Acct. The principal h
     }
   ]
 }
-</td>
-  </tr>
-</table>
-
+```
 
 Permission associated with IAM role hmh_kinesis_consumer_role 
 
-<table>
-  <tr>
-    <td>{
+```
+{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -67,9 +62,8 @@ Permission associated with IAM role hmh_kinesis_consumer_role
             "Resource": "arn:aws:kinesis:us-east-1:239641032376:stream/enhanced_data_stream"
         }
     ]
-}</td>
-  </tr>
-</table>
+}
+```
 
 
 **Example AssumeRole, Kinesis iterator**
