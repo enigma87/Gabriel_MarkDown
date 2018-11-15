@@ -67,10 +67,8 @@ Permission associated with IAM role hmh_kinesis_consumer_role
 
 
 **Example AssumeRole, Kinesis iterator**
-
-<table>
-  <tr>
-    <td>import logging
+```
+import logging
 import boto3
 import json
 import datetime
@@ -118,7 +116,5 @@ def lambda_handler(event, context):
 def date_str(o):
 	if isinstance(o, datetime.datetime):
     	return o.__str__()</td>
-  </tr>
-</table>
-
+```  
 
